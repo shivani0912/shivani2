@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#bg h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+#bg .registration {
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+}
+
+#bg h2 {
+    padding: 7px;
+}
+
+#name {
+    width: 35%;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: 0;
+    font-size: 12px;
+}
+
+#number {
+    width: 35%;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: 0;
+    font-size: 12px;
+}
+
+#email {
+    width: 35%;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: 0;
+    font-size: 12px;
+}
+
+#place {
+    width: 35%;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: 0;
+    font-size: 12px;
+}
+
+#address {
+    width: 35%;
+    padding: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: 0;
+    font-size: 12px;
+}
+
+#check {
+    font-size: 18px;
+}
+
+#bg .cta {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid crimson;
+    font-weight: 800;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 5px;
+    transition: .3s ease background-color;
+    transition-property: background-color, color;
+}
+
+#bg a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#bg .cta:hover {
+    color: white;
+    background-color: crimson;
+}
